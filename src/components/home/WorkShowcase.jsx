@@ -4,7 +4,7 @@ import { useInView } from 'framer-motion'
 import ReactPlayer from 'react-player/youtube'
 import { Play, X } from 'lucide-react'
 
-const categories = ['All', 'Wedding', 'Documentary', 'Cinematic', 'Corporate']
+const categories = ['All', 'Wedding', 'Documentary', 'Cinematic', 'Corporate', 'Music Video']
 
 // Demo YouTube URLs - Replace with your actual URLs
 const projects = [
@@ -13,28 +13,28 @@ const projects = [
     title: 'Royal Wedding Highlights',
     category: 'Wedding',
     thumbnail: '/projects/hands-indian-bride-groom-intertwined-together-making-authentic-wedding-ritual.jpg',
-    video: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    video: "hhttps://www.youtube.com/watch?v=tiPZUqB51zE",
   },
   {
     id: 2,
-    title: 'Documentary',
-    category: 'Documentary',
-    thumbnail: '/projects/man-filming-with-professional-camera.jpg',
-    video: 'https://www.youtube.com/watch?v=9bZkp7q19f0',
+    title: 'Royal Wedding Project',
+    category: 'Wedding',
+    thumbnail: '/projects/hands-indian-bride-groom-intertwined-together-making-authentic-wedding-ritual.jpg',
+    video: 'https://www.youtube.com/watch?v=-uH7zRv4an0',
   },
   {
     id: 3,
-    title: 'Corporate',
-    category: 'Corporate',
-    thumbnail: '/projects/group-three-modern-architects.jpg',
-    video: 'https://www.youtube.com/watch?v=kJQP7kiw5Fk',
+    title: 'UP Wedding Video',
+    category: 'Wedding',
+    thumbnail: '/projects/hands-indian-bride-groom-intertwined-together-making-authentic-wedding-ritual.jpg',
+    video: 'https://www.youtube.com/watch?v=XNMhxOppZrE',
   },
   {
     id: 4,
-    title: 'Cinematic Travel Film',
-    category: 'Cinematic',
-    thumbnail: '/projects/full-shot-man-bridge-with-light.jpg',
-    video: 'https://www.youtube.com/watch?v=fJ9rUzIMcZQ',
+    title: 'Gaanwala music video',
+    category: 'Music Video',
+    thumbnail: '/projects/music.jpg',
+    video: 'https://www.youtube.com/watch?v=X1GmFRY2bUM',
   },
 ]
 

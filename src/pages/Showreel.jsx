@@ -8,13 +8,18 @@ const Showreel = () => {
   // Demo YouTube URLs - Replace with your actual URLs later
   const videos = [
     { id: 1, src: "https://youtube.com/shorts/iwHy7kH00HQ?feature=share" },
-    { id: 2, src: "https://youtube.com/shorts/HvLjAIlfwNI?feature=share" },
-    { id: 3, src: "https://youtube.com/shorts/ZP1OyGPrhn8?feature=share" },
-    { id: 4, src: "https://youtube.com/shorts/-2eJIoz2gJs?feature=share" },
-    { id: 5, src: "https://youtube.com/shorts/rkOJrGeKfog?feature=share" },
-    { id: 6, src: "https://youtube.com/shorts/qtX4pMIp-cI?feature=share" },
-    { id: 7, src: "https://youtube.com/shorts/6dKWdvhwk1c?feature=share" },
-    { id: 8, src: "https://youtube.com/shorts/ZpUPBiHoGSg?feature=share" },
+    { id: 2, src: "https://www.youtube.com/shorts/Lh8B3Y2fhWc" },
+    { id: 3, src: "https://youtube.com/shorts/HvLjAIlfwNI?feature=share" },
+    { id: 4, src: "https://youtube.com/shorts/ZP1OyGPrhn8?feature=share" },
+    { id: 5, src: "https://youtube.com/shorts/-2eJIoz2gJs?feature=share" },
+    { id: 6, src: "https://youtube.com/shorts/rkOJrGeKfog?feature=share" },
+    { id: 7, src: "https://youtube.com/shorts/qtX4pMIp-cI?feature=share" },
+    { id: 8, src: "https://youtube.com/shorts/6dKWdvhwk1c?feature=share" },
+    { id: 9, src: "https://youtube.com/shorts/ZpUPBiHoGSg?feature=share" },
+    { id: 10, src: "https://youtube.com/shorts/lMl0VcXVwtA?feature=share" },
+    { id: 11, src: "https://youtube.com/shorts/qOXBU0yBDvA?feature=share" },
+    { id: 12, src: "https://youtube.com/watch?v=tiPZUqB51zE&feature=youtu.be" },
+    { id: 13, src: "hhttps://www.youtube.com/watch?v=-uH7zRv4an0" },
   ]
 
   return (
