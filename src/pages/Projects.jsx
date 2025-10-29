@@ -27,20 +27,20 @@ const projects = [
   },
   {
     id: 2,
-    title: 'Documentary Filming',
+    title: 'Documentary Filming Shorts',
     category: 'Documentary',
     subCategory: 'Educational',
     thumbnail: '/projects/man-filming-with-professional-camera.jpg',
-    video: 'https://www.youtube.com/watch?v=9bZkp7q19f0',
+    video: 'https://youtu.be/qtX4pMIp-cI',
     description: 'A Documentary type professional video editing project.',
   },
   {
     id: 3,
-    title: 'Nature Documentary',
+    title: 'Doctor Documentary',
     category: 'Documentary',
     subCategory: 'Nature',
     thumbnail: '/projects/man-filming-with-professional-camera.jpg',
-    video: 'https://www.youtube.com/watch?v=kJQP7kiw5Fk',
+    video: 'https://youtu.be/ZpUPBiHoGSg',
     description: 'A Documentary type professional video editing project.',
   },
   {
@@ -49,8 +49,26 @@ const projects = [
     category: 'Cinematic',
     subCategory: 'Short Films',
     thumbnail: '/projects/full-shot-man-bridge-with-light.jpg',
-    video: 'https://www.youtube.com/watch?v=fJ9rUzIMcZQ',
+    video: 'https://youtu.be/qOXBU0yBDvA',
     description: 'A Cinematic type professional video editing project.',
+  },
+  {
+    id: 5,
+    title: 'Corporate Shorts',
+    category: 'Corporate',
+    subCategory: 'Training',
+    thumbnail: '/projects/group-three-modern-architects.jpg',
+    video: 'https://youtu.be/ZP1OyGPrhn8',
+    description: 'A Corporate type professional video editing project.',
+  },
+  {
+    id: 6,
+    title: 'Wedding Ceremony',
+    category: 'Wedding',
+    subCategory: 'Traditional',
+    thumbnail: '/projects/hands-indian-bride-groom-intertwined-together-making-authentic-wedding-ritual.jpg',
+    video: 'https://youtu.be/XNMhxOppZrE',
+    description: 'A Wedding type professional video editing project.',
   },
 ]
 
@@ -127,11 +145,10 @@ const Projects = () => {
                     setActiveCategory(category)
                     setActiveSubCategory('All')
                   }}
-                  className={`px-6 py-2 rounded-full text-sm font-medium transition-colors ${
-                    activeCategory === category
+                  className={`px-6 py-2 rounded-full text-sm font-medium transition-colors ${activeCategory === category
                       ? 'bg-primary text-dark'
                       : 'glass text-gray-400 hover:text-primary'
-                  }`}
+                    }`}
                 >
                   {category}
                 </button>
@@ -147,11 +164,10 @@ const Projects = () => {
             >
               <button
                 onClick={() => setActiveSubCategory('All')}
-                className={`px-4 py-1 rounded-full text-xs font-medium transition-colors ${
-                  activeSubCategory === 'All'
+                className={`px-4 py-1 rounded-full text-xs font-medium transition-colors ${activeSubCategory === 'All'
                     ? 'bg-primary/20 text-primary'
                     : 'text-gray-400 hover:text-primary'
-                }`}
+                  }`}
               >
                 All
               </button>
@@ -159,11 +175,10 @@ const Projects = () => {
                 <button
                   key={subCategory}
                   onClick={() => setActiveSubCategory(subCategory)}
-                  className={`px-4 py-1 rounded-full text-xs font-medium transition-colors ${
-                    activeSubCategory === subCategory
+                  className={`px-4 py-1 rounded-full text-xs font-medium transition-colors ${activeSubCategory === subCategory
                       ? 'bg-primary/20 text-primary'
                       : 'text-gray-400 hover:text-primary'
-                  }`}
+                    }`}
                 >
                   {subCategory}
                 </button>
@@ -249,7 +264,7 @@ const Projects = () => {
                   exit={{ scale: 0.9, opacity: 0 }}
                   transition={{ type: "spring", duration: 0.5 }}
                   onClick={(e) => e.stopPropagation()}
-                  className="relative w-full max-w-4xl"
+                  className="relative w-full max-w-2xl mt-10"
                 >
                   {/* Header with Title and Close Button */}
                   <div className="flex items-start justify-between mb-4 gap-4">
@@ -303,7 +318,7 @@ const Projects = () => {
                   <div className="mt-4 text-center">
                     <p className="text-gray-300 text-sm">{selectedVideo.description}</p>
                     <p className="text-gray-500 text-xs mt-2">
-                      Press <kbd className="px-2 py-1 bg-gray-800 rounded">ESC</kbd> or click outside to close
+                      Press <kbd className="px-2 py-1 bg-gray-800 rounded">X</kbd> or click outside to close
                     </p>
                   </div>
                 </motion.div>
