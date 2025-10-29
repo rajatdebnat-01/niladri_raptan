@@ -160,7 +160,7 @@ const WorkShowcase = () => {
                 exit={{ scale: 0.9, opacity: 0 }}
                 transition={{ type: "spring", duration: 0.5 }}
                 onClick={(e) => e.stopPropagation()}
-                className="relative w-full max-w-4xl"
+                className="relative w-full max-w-2xl mt-10"
               >
                 {/* Header with Title and Close Button */}
                 <div className="flex items-center justify-between mb-4">

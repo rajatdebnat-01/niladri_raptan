@@ -10,20 +10,18 @@ import 'swiper/css/effect-cards'
 const testimonials = [
   {
     id: 1,
-    name: 'Rahul & Priya',
-    role: 'Wedding Couple',
-    image: '/testimonials/couple-1.jpg',
-    content:
-      'Niladri captured our wedding beautifully. The editing was cinematic and emotional - exactly what we wanted!',
+    name: 'Pralhad Das',
+    role: 'Director at Tuunksan',
+    image: '/projects/tuunksan.jpg',
+    content:`Working with Niladri has been an excellent experience for us at Tuunksan. He understands our brand story and beautifully converts it into powerful documentary-style reels and videos. His editing style is clean, meaningful, and brand-focused—something that truly adds value to our marketing. He is professional, easy to work with, and always delivers on time with consistent quality. If you're looking for a video editor who understands storytelling and brand identity, Niladri is the one!`,
     rating: 5,
   },
   {
     id: 2,
-    name: 'Amit Shah',
-    role: 'Corporate Client',
-    image: '/testimonials/client-1.jpg',
-    content:
-      'Professional, creative, and delivers on time. Our company video came out perfect!',
+    name: 'Neelabja Singha Roy',
+    role: 'Traveller',
+    image: '/projects/babaida.jpg',
+    content:`I’ve worked with many video editors before, but Niladri truly stands out. He has edited my travel videos and reels with a beautiful cinematic style that brings every journey to life. The way he blends storytelling with smooth transitions, music, and color grading is just outstanding. He understands the emotion behind every travel moment and turns it into a professional visual experience. Easy to work with, highly creative, and always on time—Niladri is my go-to video editor now!`,
     rating: 5,
   },
   {
