@@ -42,7 +42,7 @@ const services = [
       'Sound design',
       'Color correction',
     ],
-    price: 'Starting from ₹35,000',
+    price: 'Starting from ₹29,999',
   },
   {
     icon: Video,
@@ -57,7 +57,7 @@ const services = [
       'Event coverage',
       'Multiple formats',
     ],
-    price: 'Starting from ₹20,000',
+    price: 'Starting from ₹10,000 , for reels staring from ₹2,000',
   },
   {
     icon: Camera,
@@ -72,7 +72,7 @@ const services = [
       'Motion tracking',
       'Quick delivery',
     ],
-    price: 'Starting from ₹15,000',
+    price: 'Starting from ₹20,000',
   },
   {
     icon: Building2,
@@ -87,7 +87,7 @@ const services = [
       'Color enhancement',
       'Multiple versions',
     ],
-    price: 'Starting from ₹10,000',
+    price: 'Starting from ₹10,000, for reels starting from ₹2,000',
   },
   {
     icon: Instagram,
@@ -102,14 +102,14 @@ const services = [
       'Subtitles',
       'Engagement hooks',
     ],
-    price: 'Starting from ₹5,000',
+    price: 'Starting from ₹2,000',
   },
 ]
 
 const addOns = [
   {
     title: 'Rush Delivery',
-    price: '₹5,000',
+    price: '₹3,500',
     description: '24-48 hour turnaround time',
   },
   {
@@ -124,7 +124,7 @@ const addOns = [
   },
   {
     title: 'Motion Graphics Package',
-    price: '₹7,000',
+    price: '₹10,000',
     description: 'Custom animations and titles',
   },
 ]
