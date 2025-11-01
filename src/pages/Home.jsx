@@ -18,7 +18,7 @@ const Home = () => {
         />
       </Helmet>
 
-      <div className="space-y-32">
+      <div >
         <HeroSection />
         <AboutSection />
         <ServicesSection />

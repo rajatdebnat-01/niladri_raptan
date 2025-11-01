@@ -52,7 +52,7 @@ const AboutSection = () => {
   const isInView = useInView(sectionRef, { once: true, margin: "-100px" })
 
   return (
-    <section ref={sectionRef} className="relative py-20 px-2 overflow-hidden">
+    <section ref={sectionRef} className="relative py-20 px-2  overflow-hidden">
       {/* Animated Background */}
       <div className="absolute inset-0 bg-gradient-to-b from-dark-400 via-dark to-dark-400 pointer-events-none" />
       
