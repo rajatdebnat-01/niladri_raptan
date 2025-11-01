@@ -26,11 +26,11 @@ const testimonials = [
   },
   {
     id: 3,
-    name: 'Maya Desai',
-    role: 'Documentary Producer',
-    image: '/testimonials/producer-1.jpg',
+    name: 'Faisal Khan',
+    role: 'Child Specialist',
+    image: '/projects/WhatsApp Image 2025-10-29 at 22.38.59_8bdb21ae.jpg',
     content:
-      'Excellent storytelling through editing. Transformed our raw footage into a compelling documentary.',
+      `Working with Niladri has been a fantastic experience. As a child specialist, I aim to share educational and meaningful health content with parents, and Niladri has helped me present it in a very engaging and impactful way. His documentary-style editing for YouTube Shorts and Instagram Reels is clean, professional, and emotionally connecting. He understands the message behind every video and delivers exactly what I need—always on time and with great creativity. I truly appreciate his dedication and storytelling skills. Highly recommended!`,
     rating: 5,
   },
 ]
