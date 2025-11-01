@@ -13,7 +13,7 @@ const projects = [
     title: 'Royal Wedding Highlights',
     category: 'Wedding',
     thumbnail: '/projects/hands-indian-bride-groom-intertwined-together-making-authentic-wedding-ritual.jpg',
-    video: "hhttps://www.youtube.com/watch?v=tiPZUqB51zE",
+    video: "https://www.youtube.com/watch?v=tiPZUqB51zE",
   },
   {
     id: 2,

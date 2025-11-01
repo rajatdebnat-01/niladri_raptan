@@ -22,7 +22,7 @@ const projects = [
     category: 'Wedding',
     subCategory: 'Highlight',
     thumbnail: '/projects/hands-indian-bride-groom-intertwined-together-making-authentic-wedding-ritual.jpg',
-    video: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+    video: 'https://www.youtube.com/watch?v=-uH7zRv4an0',
     description: 'A cinematic wedding highlight capturing the essence of a royal celebration.',
   },
   {
