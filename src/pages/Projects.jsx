@@ -11,7 +11,7 @@ const categories = {
   'Documentary': ['Nature', 'Social', 'Cultural', 'Educational'],
   'Cinematic': ['Short Films', 'Music Videos', 'Trailers', 'Teasers'],
   'Corporate': ['Promotional', 'Training', 'Event Coverage', 'Product Launch'],
-  'Social Media': ['Instagram Reels', 'YouTube Shorts', 'TikTok', 'Stories'],
+  'Real Estate': ['Property Tours', 'Agent Profiles', 'Neighborhood Guides']
 }
 
 // Sample projects data - Demo YouTube URLs (Replace with your actual URLs)
@@ -69,6 +69,15 @@ const projects = [
     thumbnail: '/projects/hands-indian-bride-groom-intertwined-together-making-authentic-wedding-ritual.jpg',
     video: 'https://youtu.be/XNMhxOppZrE',
     description: 'A Wedding type professional video editing project.',
+  },
+   {
+    id: 7,
+    title: 'Property Showcase',
+    category: 'Real Estate',
+    subCategory: 'Property Tours',
+    thumbnail: '/projects/real-estate.jpg',
+    video: 'https://youtu.be/5YrMJXoiU_8',
+    description: 'A Real Estate type professional video editing project.',
   },
 ]
 

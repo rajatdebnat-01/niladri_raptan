@@ -4,7 +4,7 @@ import { useInView } from 'framer-motion'
 import ReactPlayer from 'react-player/youtube'
 import { Play, X } from 'lucide-react'
 
-const categories = ['All', 'Wedding', 'Documentary', 'Cinematic', 'Corporate', 'Music Video']
+const categories = ['All', 'Wedding', 'Music Video', 'Real Estate']
 
 // Demo YouTube URLs - Replace with your actual URLs
 const projects = [
@@ -36,6 +36,14 @@ const projects = [
     thumbnail: '/projects/music.jpg',
     video: 'https://www.youtube.com/watch?v=X1GmFRY2bUM',
   },
+  {
+    id: 5,
+    title: 'Property Showcase',
+    category: 'Real Estate',
+    thumbnail: '/projects/real-estate.jpg',
+    video: 'https://youtu.be/5YrMJXoiU_8',
+  },
+
 ]
 
 const WorkShowcase = () => {
